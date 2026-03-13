@@ -37,6 +37,37 @@ El sistema permite:
 
 ---
 
+# Instrucciones para ejecutar 
+
+Cómo usarlo:
+
+1. Guarda el código
+
+•Copia todo el código que te di
+•Ábre Notepad (Bloc de notas) o cualquier editor de texto
+•Pega el código ahí
+•Guárdalo como inventario.py (¡importante el .py al final!)
+
+2. Abre la terminal/consola
+
+En Windows: 
+
+•Presiona Windows + R
+•Escribe cmd y presiona Enter
+
+En Mac:
+
+•Presiona Cmd + Espacio
+•Escribe Terminal y presiona Enter
+
+3. Ejecuta el programa
+
+•Arrastra el archivo inventario.py a la ventana negra que se abrió
+•Presiona Enter
+
+---
+
+
 # Estructura del programa
 
 El programa utiliza dos estructuras principales:
@@ -67,35 +98,5 @@ Ejemplo:
  "Vendido 2 de Manzana por 5.0"
 ]
 
----
 
-## Instrucciones para ejecutar 
-
-Cómo usarlo:
-
-1. Guarda el código
-
-•Copia todo el código que te di
-•Ábre Notepad (Bloc de notas) o cualquier editor de texto
-•Pega el código ahí
-•Guárdalo como inventario.py (¡importante el .py al final!)
-
-2. Abre la terminal/consola
-
-En Windows: 
-
-•Presiona Windows + R
-•Escribe cmd y presiona Enter
-
-En Mac:
-
-•Presiona Cmd + Espacio
-•Escribe Terminal y presiona Enter
-
-3. Ejecuta el programa
-
-•Arrastra el archivo inventario.py a la ventana negra que se abrió
-•Presiona Enter
-
----
 
