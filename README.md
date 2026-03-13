@@ -14,20 +14,8 @@ Este proyecto es ideal como **práctica para principiantes** que están aprendie
 
 ---
 
-## 📊 Diagrama de Flujo
+## Diagrama de Flujo
 
-```mermaid
-flowchart TD
-    A([🔵 INICIO]) --> B[📋 MENÚ PRINCIPAL<br/>1.Agregar<br/>2.Mostrar<br/>3.Vender<br/>4.Resumen]
-    B --> C{🎯 ¿Opción?}
-    C -->|1| D[✏️ AGREGAR]
-    C -->|2| E[📊 MOSTRAR]
-    C -->|3| F[🛒 VENDER]
-    C -->|4| G[📈 RESUMEN]
-    D --> B
-    E --> B  
-    F --> B
-    G --> H([🔴 FIN])
 
 ---
 
