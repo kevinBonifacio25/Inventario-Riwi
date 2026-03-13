@@ -1,4 +1,4 @@
-# 🧾 Sistema de Inventario en Python
+# Sistema de Inventario en Python
 
 Un programa simple de **gestión de inventario en consola** desarrollado en **Python**.  
 Permite agregar productos, visualizar el inventario, vender productos y mostrar un resumen de transacciones.
@@ -14,7 +14,7 @@ Este proyecto es ideal como **práctica para principiantes** que están aprendie
 
 ---
 
-# 📦 Características
+# Características
 
 El sistema permite:
 
@@ -27,7 +27,7 @@ El sistema permite:
 
 ---
 
-# 🛠 Tecnologías utilizadas
+# Tecnologías utilizadas
 
 - **Python 3**
 - Ejecución en **terminal / consola**
@@ -37,7 +37,7 @@ El sistema permite:
 
 ---
 
-# 📂 Estructura del programa
+# Estructura del programa
 
 El programa utiliza dos estructuras principales:
 
@@ -66,3 +66,36 @@ Ejemplo:
  "Creado producto Manzana con 10 unidades a 2.5",
  "Vendido 2 de Manzana por 5.0"
 ]
+
+
+
+---
+# Instrucciones para ejecutar 
+
+Cómo usarlo:
+
+1. Guarda el código
+
+•Copia todo el código que te di
+•Ábre Notepad (Bloc de notas) o cualquier editor de texto
+•Pega el código ahí
+•Guárdalo como inventario.py (¡importante el .py al final!)
+
+2. Abre la terminal/consola
+
+En Windows: 
+
+•Presiona Windows + R
+•Escribe cmd y presiona Enter
+
+En Mac:
+
+•Presiona Cmd + Espacio
+•Escribe Terminal y presiona Enter
+
+3. Ejecuta el programa
+
+•Arrastra el archivo inventario.py a la ventana negra que se abrió
+•Presiona Enter
+
+
