@@ -67,8 +67,6 @@ Ejemplo:
  "Vendido 2 de Manzana por 5.0"
 ]
 
-
-
 ---
 
 # Instrucciones para ejecutar 
