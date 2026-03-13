@@ -1,77 +1,68 @@
-Sistema de Gestión de Inventario
+# 🧾 Sistema de Inventario en Python
 
-Un sistema de inventario simple y funcional desarrollado en Python. Permite agregar productos, realizar ventas, consultar el inventario actual y revisar el historial de transacciones.
-✨ Características
+Un programa simple de **gestión de inventario en consola** desarrollado en **Python**.  
+Permite agregar productos, visualizar el inventario, vender productos y mostrar un resumen de transacciones.
 
-    Gestión de productos: Agregar nuevos productos o actualizar cantidades existentes
+Este proyecto es ideal como **práctica para principiantes** que están aprendiendo:
+- Variables
+- Diccionarios
+- Listas
+- Funciones
+- Validación de datos
+- Bucles (`while`)
+- Manejo de errores (`try / except`)
 
-    Control de stock: Validación automática de stock disponible
+---
 
-    Ventas: Registro de ventas con cálculo automático del total
+# 📦 Características
 
-    Historial completo: Seguimiento de todas las transacciones realizadas
+El sistema permite:
 
-    Validaciones robustas: Entrada de datos segura con manejo de errores
+✔ Agregar nuevos productos al inventario  
+✔ Actualizar la cantidad de productos existentes  
+✔ Registrar ventas  
+✔ Mostrar el inventario actual  
+✔ Guardar un historial de transacciones  
+✔ Calcular el valor total del inventario  
 
-    Interfaz de consola intuitiva: Menú interactivo fácil de usar
+---
 
-📋 Funcionalidades
-Opción	Descripción
-1. Agregar producto	Crea productos nuevos o suma cantidad a existentes
-2. Mostrar inventario	Lista todos los productos con stock y precios
-3. Vender producto	Registra ventas respetando el stock disponible
-4. Mostrar resumen	Historial de transacciones + valor total del inventario
-🚀 Requisitos
+# 🛠 Tecnologías utilizadas
 
-    Python 3.6 o superior
+- **Python 3**
+- Ejecución en **terminal / consola**
+- Uso de estructuras de datos:
+  - Diccionarios
+  - Listas
 
-    No requiere librerías externas
+---
 
-🛠️ Instalación
+# 📂 Estructura del programa
 
-    Clona o descarga el repositorio
+El programa utiliza dos estructuras principales:
 
-    Abre la terminal en la carpeta del proyecto
+```python
+inventario = {}
+transacciones = []
 
-    Ejecuta: python inventario.py
+#Inventario
 
-📖 Ejemplo de Uso
+Diccionario que almacena los productos.
 
-text
-MENÚ
-1. Agregar producto
-2. Mostrar inventario
-3. Vender producto
-4. Mostrar resumen y salir
-Elige una opción: 1
-Nombre del producto: Camisa
-Cantidad a agregar: 50
-Precio por unidad: 25.50
-producto agregado exitosamente.
+Ejemplo:
 
-🧪 Ejemplo de Salida - Inventario
+{
+    "Manzana": {"cantidad": 10, "precio": 2.5},
+    "Banana": {"cantidad": 20, "precio": 1.5}
+}
 
-text
---- Inventario actual ---
-- Camisa: 50 unidades, precio: 25.5
-- Pantalon: 30 unidades, precio: 45.0
+#transacciones
 
-🔒 Validaciones Implementadas
+Lista que guarda el historial de operaciones realizadas.
 
-    Nombres solo con letras (a-z, A-Z)
+Ejemplo:
 
-    Cantidades y precios mayores a 0
-
-    Stock suficiente para ventas
-
-    Manejo de entradas inválidas
-
-📊 Resumen de Transacciones
-
-El sistema mantiene un registro completo de:
-
-text
-- Creado producto Camisa con 50 unidades a 25.5
-- Vendido 5 de Camisa por 127.5
-- Agregado 20 unidades a Camisa
-Valor total del inventario actual: 2000.5
+[
+ "Creado producto Manzana con 10 unidades a 2.5",
+ "Vendido 2 de Manzana por 5.0"
+]
