@@ -14,6 +14,12 @@ Este proyecto es ideal como **práctica para principiantes** que están aprendie
 
 ---
 
+## 📊 Diagrama de Flujo
+
+![Flujograma Inventario](https://drive.google.com/file/d/1p3ij1o1hUZ38a7lEtNUX0wLP9qeLv8xl/view?usp=drivesdk)
+
+---
+
 # Características
 
 El sistema permite:
