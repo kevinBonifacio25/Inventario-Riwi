@@ -69,7 +69,7 @@ Ejemplo:
 
 ---
 
-# Instrucciones para ejecutar 
+## Instrucciones para ejecutar 
 
 Cómo usarlo:
 
