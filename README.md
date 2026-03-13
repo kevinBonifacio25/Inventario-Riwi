@@ -99,4 +99,5 @@ En Mac:
 •Arrastra el archivo inventario.py a la ventana negra que se abrió
 •Presiona Enter
 
+---
 
